@@ -1,0 +1,117 @@
+body {
+    background: rgb(68, 0, 68);
+    color: rgba(240, 239, 239, 0.89);
+    font-family: 'Righteous', cursive;
+    margin: 0;
+}
+
+#header{
+    padding: 5px;
+    height: 20%;
+    display: flex;
+    background-color: rgb(49, 3, 49);
+    border-bottom: 1pt solid rgba(189, 188, 188, 0.397);
+}
+
+#logo{
+    width: 50%;
+    margin-left: 15%;
+}
+
+#hyperlinks{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.hyper-options{
+    color: white;
+    font-size: 13pt;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 15%;
+    margin: 8% 0% 5% 0%;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+a:hover{
+    background-color: white;
+    color: rgb(49, 3, 49);
+}
+
+#content{
+    display:flex;
+}
+
+#posts-column{
+    padding: 15px;
+    width: 55%;
+    margin-left: 22.5%;
+}
+
+.posts-header{
+    color:  rgb(240, 234, 234);
+    border-bottom: solid rgb(240, 234, 234);
+}
+
+.post{
+    background: white;
+    color: rgba(0, 0, 0, 0.767);
+    border-radius: 7px;
+    text-align: center;
+    width: 75%;
+    margin-left: 12.5%;
+    padding: 0px 10px 0 10px;
+}
+
+.post-title{
+    color: purple;
+    text-align: left;
+    padding: 5px 0px 5px 10px;
+    text-decoration: underline;
+    border-bottom: 1pt solid rgba(0, 0, 0, 0.301);
+}
+
+.post-description{
+    text-align: justify;
+    font-size: 13pt;
+    padding: 0px 25px 15px 15px;
+}
+
+.post-img {
+    width: 60%;
+}
+
+img {
+    border-radius: 5px;
+}
+
+video{
+    width: 35%;
+}
+
+footer{
+    border: 1pt solid rgba(255, 255, 255, 0.103);
+    border-radius: 3px;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+    padding: 0 15px 0 15px;
+}
+
+.warning{
+    width: 60%;
+    margin: 10% 20% 0 20%;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.pages{
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+}
